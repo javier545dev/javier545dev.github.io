@@ -58,7 +58,7 @@
     left: 50%;
     transform: translateX(-50%) translateY(100px);
     opacity: 0;
-    top: 88%;
+    top: 85%;
     background-color: rgba(0, 0, 0, 0.596);
     padding: 20px 50px;
     display: flex;
@@ -92,7 +92,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 530px) {
   .navigation {
     position: fixed;
     z-index: 1000;
@@ -100,7 +100,7 @@
     left: 50%;
     transform: translateX(-50%) translateY(100px);
     opacity: 0;
-    top: 88%;
+    top: 90%;
     background-color: rgba(0, 0, 0, 0.596);
     padding: 12px 20px;
     max-width: 99%;

@@ -5,6 +5,7 @@ import Qualifications from "../qualifications/qualifications";
 function About() {
   return (
     <div id="about" className="container about-container">
+      <h2 className="quali-text">All Projects</h2>
       <Qualifications />
     </div>
   );

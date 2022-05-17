@@ -1,0 +1,18 @@
+.container-skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 5% 10%;
+}
+.skill-txt {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+@media (max-width: 375px) {
+  .container-skill {
+    padding: 20% 0 0 0;
+  }
+}

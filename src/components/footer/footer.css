@@ -7,6 +7,7 @@
   min-height: 30vh;
   margin-top: 80px;
   margin-bottom: 80px;
+  gap: 2rem;
 }
 
 .container.footer-container h1 {

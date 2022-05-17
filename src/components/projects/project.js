@@ -4,22 +4,30 @@ import "./project.css";
 const Projects = () => {
   return (
     <div id="members" className="container members-container">
-      <h1 className="project-txt">Projects</h1>
+      <h1 className="project-txt">Top Projects</h1>
       <div className="member member-1">
         <div className="member-img"></div>
         <div className="member-info">
           <h1 className="name">InstaPets</h1>
-          <h3 className="tecnology">React</h3>
+          <h3 className="tecnology">React - PWA</h3>
           <h4 className="about">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
             maiores harum laborum vero recusandae? Cumque nam facere aspernatur
             autem eius!
           </h4>
           <div className="content-button">
-            <a href="#contact" className="contact-member">
+            <a
+              href="https://dist-nu-nine.vercel.app/"
+              target={"blank"}
+              className="contact-member"
+            >
               <span>Link</span>
             </a>
-            <a href="#contact" className="contact-member">
+            <a
+              href="https://github.com/javier545dev/socialPet"
+              target={"blank"}
+              className="contact-member"
+            >
               <span>Github</span>
             </a>
           </div>

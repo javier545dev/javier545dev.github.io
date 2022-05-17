@@ -1,7 +1,7 @@
 .project-txt {
-  text-align: center;
+  align-self: center;
   font-size: 20px;
-  top: 10px;
+  padding-bottom: 3rem;
   font-weight: 100;
 }
 

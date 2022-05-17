@@ -1,6 +1,7 @@
 .about-container {
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   min-height: 100vh;
@@ -8,6 +9,12 @@
   padding: 50px;
   overflow-x: hidden;
   backdrop-filter: blur(20px);
+}
+
+.quali-text {
+  font-size: 20px;
+  top: 10px;
+  align-self: center;
 }
 
 @media (max-width: 820px) {

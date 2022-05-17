@@ -84,6 +84,17 @@ body::after {
   align-items: center;
 }
 
+.container2 {
+  width: var(--pc-width);
+  color: var(--text-pri);
+  margin: 15% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 @media (max-width: 500px) {
   .container {
     width: var(--phone-width);

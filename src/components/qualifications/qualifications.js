@@ -4,7 +4,6 @@ import "./qualifications.css";
 const Qualifications = () => {
   return (
     <div>
-      <span className="quali-text">My Skills</span>
       <div className="qualifications-container">
         <div className="qualification">
           <div className="content html"></div>
