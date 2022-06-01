@@ -6,7 +6,7 @@ import Buttons from "../button/button";
 
 function Home() {
   return (
-    <div id="home" className="container home-container">
+    <div className="container home-container">
       <div className="logo">
         <div className="hover-show">
           <span className="circle"></span>

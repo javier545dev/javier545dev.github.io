@@ -87,12 +87,13 @@ body::after {
 .container2 {
   width: var(--pc-width);
   color: var(--text-pri);
-  margin: 15% auto;
+  margin: 5% auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 2% 0;
 }
 
 @media (max-width: 500px) {

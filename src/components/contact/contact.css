@@ -4,27 +4,28 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 70vh;
-  padding: 50px;
+  min-height: 60vh;
+  padding: 0 3rem;
 }
 
 .contact-container h1 {
+  opacity: 0.8;
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--color-pri);
+  font-family: "Open Sans Condensed", sans-serif;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 100;
   margin: 0 auto;
-  font-size: 22px;
-  font-family: "Open Sans Condensed";
-  font-weight: 400;
   margin-bottom: 2em;
-  text-decoration: underline;
-  color: var(--color-pri);
 }
 
 .contact-container .contact-links {
   position: relative;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  margin-top: 40px;
 }
 
 .contact-container .contact {

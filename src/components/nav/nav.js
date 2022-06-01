@@ -12,7 +12,7 @@ function Navbar() {
       <a href="#home">
         <AiOutlineHome className="icon " />
       </a>
-      <a href="#about">
+      <a href="#skills">
         <AiOutlineUser className="icon " />
       </a>
       <a href="#members">

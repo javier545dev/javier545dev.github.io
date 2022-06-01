@@ -4,7 +4,7 @@ import Qualifications from "../qualifications/qualifications";
 
 function About() {
   return (
-    <div id="about" className="container about-container">
+    <div id="about" className="container2 about-container">
       <h2 className="quali-text">All Projects</h2>
       <Qualifications />
     </div>
