@@ -1,78 +1,88 @@
 import React from "react";
-import { SkillBars } from "react-skills";
+import {
+  DiJavascript1,
+  DiReact,
+  DiNodejs,
+  DiGit,
+  DiSass,
+} from "react-icons/di";
+import {
+  SiTypescript,
+  SiRedux,
+  SiFigma,
+  SiAdobexd,
+  SiMaterialui,
+  SiTailwindcss,
+  SiBootstrap,
+  SiStyledcomponents,
+  SiHtml5,
+  SiCss3,
+  SiWebpack,
+  SiStrapi,
+  SiFirebase,
+} from "react-icons/si";
 import "./skills.css";
 
 const Skill = () => {
-  const skillsData = [
-    {
-      name: "HTML",
-      level: 70,
-      color: "#e34c26",
-    },
-    {
-      name: "CSS",
-      level: 45,
-      color: "#5f26e3",
-    },
-    {
-      name: "JavaScript",
-      level: 50,
-      color: "#bc100d",
-    },
-    {
-      name: "BootStrap",
-      level: 60,
-      color: "#ef0a75",
-    },
-    {
-      name: "MaterialUI",
-      level: 70,
-      color: "#37b6b8",
-    },
-    {
-      name: "TailwindsCss",
-      level: 70,
-      color: "#805715",
-    },
-    {
-      name: "ReactJS",
-      level: 45,
-      color: "#7341f2",
-    },
-    {
-      name: "Hooks",
-      level: 70,
-      color: "#854a7d",
-    },
-    {
-      name: "Redux",
-      level: 40,
-      color: "#6baa27",
-    },
-    {
-      name: "Firebase",
-      level: 56,
-      color: "#8f765f",
-    },
-    {
-      name: "Figma",
-      level: 75,
-      color: "#e3a126",
-    },
-  ];
   return (
     <div id="skills" className="container2">
       <h1 className="skill-txt">My Skills</h1>
-      <div className="container-skill">
-        <SkillBars
-          hue="300"
-          saturation="40"
-          duration={5}
-          barsHeight={40}
-          labelsWidth={100}
-          skills={skillsData}
-        />
-      </div>
+      <ul className="container-skill">
+        <li className="skill-icon">
+          <SiHtml5 />
+        </li>
+        <li className="skill-icon">
+          <SiCss3 />
+        </li>
+        <li className="skill-icon">
+          <DiJavascript1 />
+        </li>
+        {/* <li className="skill-icon">
+          <SiTypescript />
+        </li> */}
+        <li className="skill-icon">
+          <DiNodejs />
+        </li>
+        <li className="skill-icon">
+          <SiWebpack />
+        </li>
+        <li className="skill-icon">
+          <SiFirebase />
+        </li>
+        <li className="skill-icon">
+          <DiReact />
+        </li>
+        <li className="skill-icon">
+          <SiRedux />
+        </li>
+        <li className="skill-icon">
+          <DiSass />
+        </li>
+        <li className="skill-icon">
+          <SiMaterialui />
+        </li>
+        <li className="skill-icon">
+          <SiStyledcomponents />
+        </li>
+        <li className="skill-icon">
+          <SiBootstrap />
+        </li>
+        <li className="skill-icon">
+          <SiTailwindcss />
+        </li>
+        <li className="skill-icon">
+          <SiFigma />
+        </li>
+        <li className="skill-icon">
+          <SiAdobexd />
+        </li>
+        <li className="skill-icon">
+          <SiStrapi />
+        </li>
+        <li className="skill-icon">
+          <DiGit />
+        </li>
+      </ul>
     </div>
   );
 };

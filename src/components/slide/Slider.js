@@ -29,14 +29,14 @@ const Slider = () => {
             },
           },
         ]}
-        animationSpeed={1000}
+        animationSpeed={2000}
         offset={50}
         itemWidth={300}
         slides={slides}
         breakpoints={{
           960: {
-            slidesPerPage: 1,
-            itemWidth: 150,
+            slidesPerPage: 3,
+            itemWidth: 200,
           },
         }}
       />
