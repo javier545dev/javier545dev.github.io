@@ -1,16 +1,20 @@
 /* eslint-disable react/jsx-key */
 import React from "react";
+// import paladin from "../../assets/paladin.png";
+// import instapets from "../../assets/instapets.jpeg";
+// import landing from "../../assets/landing.png";
+// import weather from "../../assets/weather.png";
 import "./slider.css";
 
 const slidesInfo = [
   {
-    src: "https://cdn.pixabay.com/photo/2022/06/13/23/14/23-14-58-683_960_720.png",
+    src: "https://i.postimg.cc/Px6B1QVP/Captura-de-Pantalla-2022-06-13-a-la-s-18-14-04.png",
     link: "https://paladin-tech.vercel.app/",
     alt: "PaladinTech",
     desc: "Paladin with Next.js",
   },
   {
-    src: "https://cdn.pixabay.com/photo/2022/06/13/21/49/21-49-48-917_960_720.jpg",
+    src: "https://i.postimg.cc/j22Y1FnH/instapets-X4-1.jpg",
     link: "https://practic-instapet.vercel.app/",
     alt: "Instapet",
     desc: "Instapet PWA for Mobile",
@@ -22,13 +26,13 @@ const slidesInfo = [
     desc: "WhatsApp Clone React Native",
   },
   {
-    src: "https://cdn.pixabay.com/photo/2022/06/13/22/38/22-38-37-919_960_720.png",
+    src: "https://i.postimg.cc/s2zdzXZD/Captura-de-Pantalla-2022-06-13-a-la-s-17-33-21.png",
     link: "https://react-weather-app-28b2b.web.app/",
     alt: "React Weather App",
     desc: "React Weather App",
   },
   {
-    src: "https://cdn.pixabay.com/photo/2022/06/13/22/59/22-59-42-171_960_720.jpg",
+    src: "https://i.postimg.cc/j5kFDdCf/Captura-de-Pantalla-2022-06-13-a-la-s-17-57-45.png",
     link: "https://javier545dev.github.io/landing-react/",
     alt: "React Landing Page with MaterialUI",
     desc: "React Landing Page",
