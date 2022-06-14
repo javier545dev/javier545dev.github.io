@@ -7,7 +7,7 @@ const slidesInfo = [
     src: "https://cdn.pixabay.com/photo/2022/06/13/23/14/23-14-58-683_960_720.png",
     link: "https://paladin-tech.vercel.app/",
     alt: "PaladinTech",
-    desc: "PaladinTech with Next.js",
+    desc: "Paladin with Next.js",
   },
   {
     src: "https://cdn.pixabay.com/photo/2022/06/13/21/49/21-49-48-917_960_720.jpg",

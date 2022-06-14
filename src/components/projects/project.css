@@ -40,14 +40,15 @@
   padding: 20px;
   border-radius: 50px;
 }
-.members-container .member .member-img {
+.members-container .member .member-img > img {
   height: 300px;
   width: 300px;
   border-radius: 40px;
-  background: rgb(5, 7, 37) url(../props/img3.jpg);
+  background: "#4B0082";
   background-size: cover;
   background-position: center;
   border: 2px solid var(--color-sec-light);
+  filter: opacity(0.6) brightness(1.2);
 }
 
 .members-container .member .member-info {
@@ -113,14 +114,16 @@
     border-radius: 50px;
     backdrop-filter: blur(20px);
   }
-  .members-container .member .member-img {
+
+  .members-container .member .member-img > img {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background: rgb(5, 7, 37) url(../props/img3.jpg);
+    background: "#4B0082";
     background-size: cover;
     background-position: center;
     border: 2px solid var(--color-sec-light);
+    filter: opacity(0.6) brightness(1.2);
   }
 
   .content-button {
@@ -188,14 +191,15 @@
     border-radius: 50px;
     backdrop-filter: blur(20px);
   }
-  .members-container .member .member-img {
+  .members-container .member .member-img > img {
     height: 70px;
     width: 70px;
     border-radius: 50%;
-    background: rgb(5, 7, 37) url(../props/img3.jpg);
+    background: "#4B0082";
     background-size: cover;
     background-position: center;
     border: 2px solid var(--color-sec-light);
+    filter: opacity(0.6) brightness(1.2);
   }
 
   .members-container .member .member-info {
@@ -257,14 +261,15 @@
     border-radius: 50px;
     backdrop-filter: blur(20px);
   }
-  .members-container .member .member-img {
+  .members-container .member .member-img > img {
     height: 70px;
     width: 70px;
     border-radius: 50%;
-    background: rgb(5, 7, 37) url(../props/img3.jpg);
+    background: "#4B0082";
     background-size: cover;
     background-position: center;
     border: 2px solid var(--color-sec-light);
+    filter: opacity(0.6) brightness(1.2);
   }
 
   .members-container .member .member-info {
@@ -327,14 +332,15 @@
     border-radius: 50px;
     backdrop-filter: blur(20px);
   }
-  .members-container .member .member-img {
+  .members-container .member .member-img > img {
     height: 70px;
     width: 70px;
     border-radius: 50%;
-    background: rgb(5, 7, 37) url(../props/img3.jpg);
+    background: "#4B0082";
     background-size: cover;
     background-position: center;
     border: 2px solid var(--color-sec-light);
+    filter: opacity(0.6) brightness(1.2);
   }
 
   .members-container .member .member-info {
@@ -397,14 +403,15 @@
     border-radius: 50px;
     backdrop-filter: blur(20px);
   }
-  .members-container .member .member-img {
+  .members-container .member .member-img > img {
     height: 70px;
     width: 70px;
     border-radius: 50%;
-    background: rgb(5, 7, 37) url(../props/img3.jpg);
+    background: "#4B0082";
     background-size: cover;
     background-position: center;
     border: 2px solid var(--color-sec-light);
+    filter: opacity(0.6) brightness(1.2);
   }
 
   .members-container .member .member-info {

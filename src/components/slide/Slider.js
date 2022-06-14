@@ -26,17 +26,44 @@ const Slider = () => {
             resolve: autoplayPlugin,
             options: {
               interval: 2000,
+              animationDuration: 1000,
+              autoplay: true,
+              stopOnHover: true,
             },
           },
         ]}
         animationSpeed={2000}
         offset={50}
-        itemWidth={300}
+        itemWidth={400}
         slides={slides}
         breakpoints={{
+          2000: {
+            slidesPerPage: 5,
+            itemWidth: 500,
+          },
+          1024: {
+            slidesPerPage: 3,
+            itemWidth: 400,
+          },
           960: {
             slidesPerPage: 3,
+            itemWidth: 250,
+            offset: 50,
+          },
+          820: {
+            slidesPerPage: 2,
             itemWidth: 200,
+            offset: 30,
+          },
+          640: {
+            slidesPerPage: 2,
+            itemWidth: 200,
+            offset: 20,
+          },
+          320: {
+            slidesPerPage: 1,
+            itemWidth: 200,
+            offset: 5,
           },
         }}
       />

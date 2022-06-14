@@ -7,7 +7,12 @@ const Projects = () => {
       <h1 className="project-txt">Top Projects</h1>
 
       <div className="member member-1">
-        <div className="member-img"></div>
+        <div className="member-img">
+          <img
+            src="https://cdn.pixabay.com/photo/2022/06/13/23/14/23-14-58-683_960_720.png"
+            alt="PaladinTech"
+          />
+        </div>
         <div className="member-info">
           <h1 className="name">PaladinTech</h1>
           <h3 className="tecnology">NextJs - PaladinTech</h3>
@@ -36,7 +41,12 @@ const Projects = () => {
       </div>
 
       <div className="member member-2">
-        <div className="member-img"></div>
+        <div className="member-img">
+          <img
+            src="https://cdn.pixabay.com/photo/2022/06/13/21/49/21-49-48-917_960_720.jpg"
+            alt="instapets"
+          />
+        </div>
         <div className="member-info">
           <h1 className="name">InstaPets</h1>
           <h3 className="tecnology">React - PWA</h3>
@@ -65,7 +75,12 @@ const Projects = () => {
       </div>
 
       <div className="member member-3">
-        <div className="member-img"></div>
+        <div className="member-img">
+          <img
+            src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/03/03/15832721735389.jpg"
+            alt="WhatsApp Clone"
+          />
+        </div>
         <div className="member-info">
           <h1 className="name">WhatsApp Clone</h1>
           <h3 className="tecnology">React Native</h3>
@@ -95,7 +110,12 @@ const Projects = () => {
       </div>
 
       <div className="member member-4">
-        <div className="member-img"></div>
+        <div className="member-img">
+          <img
+            src="https://cdn.pixabay.com/photo/2022/06/13/22/38/22-38-37-919_960_720.png"
+            alt="React Weather"
+          />
+        </div>
         <div className="member-info">
           <h1 className="name">React Weather</h1>
           <h3 className="tecnology">React</h3>
