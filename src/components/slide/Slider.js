@@ -9,7 +9,7 @@ const Slider = () => {
   return (
     <div className="carousel-container">
       <div className="carousel-title">
-        <h2>My Projects</h2>
+        <h1>My Projects</h1>
       </div>
       <Carousel
         plugins={[
