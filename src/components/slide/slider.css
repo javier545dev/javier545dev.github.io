@@ -22,7 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90%;
+  height: 70vh;
   border-radius: 10%;
   overflow: hidden;
   position: relative;
@@ -100,7 +100,6 @@
 
 @media only screen and (max-width: 960px) {
   .carousel-container {
-    flex-direction: column;
     padding: 0 12%;
   }
 
@@ -110,31 +109,49 @@
   }
 
   .slide-container {
-    width: 100%;
-    height: 50%;
+    width: 80%;
+    height: 60vh;
     border-radius: 20%;
     overflow: hidden;
     position: relative;
     cursor: pointer;
   }
   .BrainhubCarousel {
-    height: 500px;
     padding: 30px;
   }
 }
-@media only screen and (max-width: 500px) {
-  .carousel-container {
-    flex-direction: column;
-    padding: 0 8%;
-  }
-
+@media only screen and (max-width: 800px) {
   .slide-container {
-    width: 90%;
-    height: 40%;
+    width: 100%;
+    height: 35vh;
     border-radius: 20%;
     overflow: hidden;
     position: relative;
     cursor: pointer;
+  }
+  .carousel-title {
+    text-align: center;
+    padding: 50px 0 5px 0;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .carousel-container {
+    flex-direction: column;
+    padding: 0 0;
+  }
+
+  .slide-container {
+    width: 90%;
+    border-radius: 20%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .carousel-title {
+    margin-bottom: 1rem;
   }
   .BrainhubCarousel {
     height: 300px;

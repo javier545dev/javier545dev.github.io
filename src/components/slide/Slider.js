@@ -47,7 +47,7 @@ const Slider = () => {
           },
           960: {
             slidesPerPage: 3,
-            itemWidth: 250,
+            itemWidth: 400,
             offset: 50,
           },
           820: {
