@@ -51,7 +51,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 60%;
+  width: 65%;
   padding-left: 30px;
   border-top-left-radius: 50px;
   opacity: 0.8;
@@ -60,7 +60,7 @@
 .slide-desc > span {
   color: white;
   display: block;
-  font-size: 22px;
+  font-size: 1rem;
   padding: 20px 0 20px 0px;
 }
 

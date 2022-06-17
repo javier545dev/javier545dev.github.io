@@ -12,10 +12,10 @@ function Contact() {
     <div id="contact" className="container contact-container">
       <h1>Contact Me</h1>
       <div className="contact-links">
-        <a href="https://wa.link/scotsl" className="contact" target={"blank"}>
+        <a href="https://wa.link/1j7hcq" className="contact" target={"blank"}>
           <AiOutlineWhatsApp className="icon" />
           <h2>
-            WhatsApp <span>+51 974 563 258</span>
+            WhatsApp <span>+51 901 955 707</span>
           </h2>
         </a>
 

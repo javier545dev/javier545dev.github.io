@@ -37,9 +37,9 @@ const Skill = () => {
         <li className="skill-icon">
           <DiJavascript1 />
         </li>
-        {/* <li className="skill-icon">
+        <li className="skill-icon">
           <SiTypescript />
-        </li> */}
+        </li>
         <li className="skill-icon">
           <DiNodejs />
         </li>
