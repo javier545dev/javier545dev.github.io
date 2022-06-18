@@ -6,7 +6,7 @@ const Projects = () => {
     <div id="members" className="container members-container">
       <h1 className="project-txt">Top Projects</h1>
       <div className="container-cards">
-        <div className="member member-1">
+        <div className="member">
           <div className="member-img">
             <img
               src="https://i.postimg.cc/Px6B1QVP/Captura-de-Pantalla-2022-06-13-a-la-s-18-14-04.png"
@@ -40,7 +40,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="member member-2">
+        <div className="member">
           <div className="member-img">
             <img
               src="https://i.postimg.cc/j22Y1FnH/instapets-X4-1.jpg"
@@ -74,7 +74,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="member member-3">
+        <div className="member">
           <div className="member-img">
             <img
               src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/03/03/15832721735389.jpg"
@@ -109,7 +109,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="member member-4">
+        <div className="member">
           <div className="member-img">
             <img
               src="https://i.postimg.cc/s2zdzXZD/Captura-de-Pantalla-2022-06-13-a-la-s-17-33-21.png"
