@@ -69,6 +69,7 @@
   font-weight: 100;
   font-size: 0.8rem;
   margin: 5px;
+  border-bottom: 1px solid white;
 }
 
 .tooltip:hover .tooltiptext {
