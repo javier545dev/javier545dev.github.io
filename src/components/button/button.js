@@ -12,7 +12,7 @@ function Buttons() {
         href={PDF}
         target="_blank"
         rel="noopener noreferrer"
-        download
+        download="my-CV.pdf"
         className="btn sec"
       >
         Get CV
