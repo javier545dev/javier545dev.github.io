@@ -148,10 +148,9 @@
 
   .contact-container h1 {
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Open Sans Condensed";
     font-weight: 400;
-    color: var(--color-pri);
   }
 
   .contact-container .contact-links {
@@ -219,7 +218,6 @@
     font-size: 25px;
     font-family: "Open Sans Condensed";
     font-weight: 400;
-    color: var(--color-pri);
   }
 
   .contact-container .contact-links {
@@ -286,7 +284,6 @@
     font-size: 22px;
     font-family: "Open Sans Condensed";
     font-weight: 400;
-    color: var(--color-pri);
   }
 
   .contact-container .contact-links {
